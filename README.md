@@ -1,3 +1,5 @@
+This Project is created just to learn technolgies and try out samples and is not be used for any production work
+
 # Basic Sample Hardhat Project
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
