@@ -1,8 +1,17 @@
-string1 = "Lua"
-print("\"String 1 is\"",string1)
+--[[
+ String1 = "Lua"
+print("\"String 1 is\"",String1)
 
-string2 = 'Tutorial'
-print("String 2 is",string2)
+String2 = 'Tutorial'
+print("String 2 is",String2)
 
-string3 = [["Lua Tutorial"]]
-print("String 3 is",string3)
+String3 = ["Lua Tutorial"]
+print("String 3 is",String3) --]]
+
+
+X = 100000
+
+while X > 0 do
+    print("Running a loop")
+    X = X - 2
+end
