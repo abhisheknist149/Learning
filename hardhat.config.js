@@ -21,6 +21,18 @@ task("balance", "Prints an account's balance")
 
 module.exports = {};
 
+task("hello-world", "Prints a hello world message").setAction(
+  async (taskArgs, hre) => {
+    await hre.run("print", { message: "Hello, World!" });
+  }
+);
+
+subtask("print", "Prints a message")
+  .addParam("message", "The message to print")
+  .setAction(async (taskArgs) => {
+    console.log(taskArgs.message);
+  });
+
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
 
