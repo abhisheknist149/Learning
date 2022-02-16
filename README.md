@@ -1,4 +1,4 @@
-This Project is created just to learn technolgies and try out samples and is not be used for any production work
+This Project is created just to learn technolgies and try out samples and is not be used for any production work. This project is only meant for learning purposes and to try out things
 
 Currently project has 
 
